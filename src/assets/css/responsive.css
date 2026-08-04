@@ -1,0 +1,18 @@
+@media (max-width: 992px) {
+
+  .hero {
+    text-align: center;
+  }
+
+  .profile {
+    width: 280px;
+    height: 280px;
+    margin-top: 40px;
+  }
+
+  .about-img {
+    margin-bottom: 30px;
+  }
+
+}
+

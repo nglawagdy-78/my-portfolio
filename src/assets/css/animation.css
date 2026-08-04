@@ -1,0 +1,33 @@
+html{
+    scroll-behavior:smooth;
+}
+
+*{
+    transition:.3s;
+}
+
+section{
+    animation:fadeUp .8s;
+}
+
+@keyframes fadeUp{
+
+from{
+    opacity:0;
+    transform:translateY(40px);
+}
+
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
+}
+
+img{
+    transition:.5s;
+}
+
+img:hover{
+    transform:scale(1.03);
+}
